@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_skill_skill_data",
+  "info": {
+    "name": "skill_data",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "span": {
+      "type": "boolean",
+      "default": false
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}
