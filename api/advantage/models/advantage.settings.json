@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "heroes",
+  "collectionName": "advantages",
   "info": {
-    "name": "hero",
-    "description": ""
+    "name": "advantage"
   },
   "options": {
     "increments": true,
@@ -12,23 +11,27 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "description": {
-      "type": "text",
-      "required": true
+      "type": "text"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "animationDelay": {
+      "type": "integer"
     },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }

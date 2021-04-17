@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "heroes",
+  "collectionName": "services",
   "info": {
-    "name": "hero",
-    "description": ""
+    "name": "service"
   },
   "options": {
     "increments": true,
@@ -12,23 +11,24 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "description": {
-      "type": "text",
-      "required": true
+      "type": "text"
+    },
+    "alt": {
+      "type": "string"
     },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }
