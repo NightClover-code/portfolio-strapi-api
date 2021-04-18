@@ -40,7 +40,7 @@
     "skill": {
       "type": "component",
       "repeatable": true,
-      "component": "skill.skill"
+      "component": "skills.skill"
     },
     "projectID": {
       "type": "string"
