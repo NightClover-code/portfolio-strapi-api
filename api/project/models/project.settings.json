@@ -26,17 +26,6 @@
     "website": {
       "type": "string"
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "skill": {
       "type": "component",
       "repeatable": true,
@@ -44,6 +33,9 @@
     },
     "projectID": {
       "type": "string"
+    },
+    "image": {
+      "model": "image"
     }
   }
 }

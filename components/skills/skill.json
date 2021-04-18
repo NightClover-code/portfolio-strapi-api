@@ -2,7 +2,8 @@
   "collectionName": "components_skill_skills",
   "info": {
     "name": "skill",
-    "icon": "biohazard"
+    "icon": "biohazard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "type": "string"
     },
     "normalLogo": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
